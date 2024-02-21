@@ -29,7 +29,7 @@ def listen():
     return text
 
 def get_response(prompt):
-    openai.api_key="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"
+    openai.api_key="apikey"
     message=prompt
     messages=f"act as a speech assistant and create a conversation reply for {message}"
     chat = openai.completions.create(
